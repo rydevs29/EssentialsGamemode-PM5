@@ -1,0 +1,29 @@
+name: EssentialsGamemodePM5
+api: 5.0.0
+main: rydevs\els\Main
+version: 1.0.0
+author: RifqyDev
+
+commands:
+  gmc:
+    permission: gmc.use
+    description: Change gamemode to Creative
+  gms:
+    permission: gms.use
+    description: Change gamemode to Survival
+  gmsp:
+    permission: gmsp.use
+    description: Change gamemode to Spectator
+  gma:
+    permission: gma.use
+    description: Change gamemode to Adventure
+    
+permissions:
+  gmc.use:
+    default: op
+  gms.use:
+    default: op
+  gmsp.use:
+    default: op
+  gma.use:
+    default: op

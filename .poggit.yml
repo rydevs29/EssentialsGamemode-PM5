@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/rydevs29/EssentialsGamemode-PM5
+build-by-default: true
+branches:
+- main
+projects:
+  EssentialsGamemode-PM5:
+    path: ""
+...
